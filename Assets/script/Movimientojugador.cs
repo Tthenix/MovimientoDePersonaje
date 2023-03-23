@@ -5,13 +5,13 @@ using UnityEngine;
 public class Movimientojugador : MonoBehaviour
 {
     public float speed = 4f;
-    int direction = 1;
-    bool isTouchingWall = false;
+    public int direction = 1;
+    public bool isTouchingWall = false;
 
     void Start()
     {
         
-    }
+    }       
 
     void Update()
     {
